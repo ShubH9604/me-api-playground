@@ -1,0 +1,81 @@
+/* Global Dark Theme */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Section Headings */
+  h2 {
+    color: #ffffff;
+    border-left: 4px solid #64b5f6;
+    padding-left: 10px;
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+  
+  /* Card Style */
+  .card {
+    background-color: #1e1e1e;
+    border: 1px solid #2c2c2c;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.9);
+  }
+  
+  /* Links with Icons */
+  .icon-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  .icon-links a {
+    font-size: 1.6rem;
+    color: #64b5f6;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  .icon-links a:hover {
+    color: #90caf9;
+    transform: scale(1.2);
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #64b5f6;
+    color: #121212;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  button:hover {
+    background-color: #42a5f5;
+    transform: scale(1.05);
+  }
+  
+  /* Input */
+  input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    margin-right: 10px;
+    transition: border 0.3s ease;
+  }
+  input:focus {
+    outline: none;
+    border-color: #64b5f6;
+    box-shadow: 0 0 8px rgba(100, 181, 246, 0.6);
+  }
