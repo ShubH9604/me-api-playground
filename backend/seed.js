@@ -22,10 +22,9 @@ const seed = async () => {
       education: "B.Tech in Computer & Communication Engineering",
       skills: ["Full-stack Web Development", "Machine Learning", "React", "Node.js", "MongoDB", "Django", "C++", "Vite"],
       links: {
-        github: "https://github.com/shubhkalaria",
-        linkedin: "https://linkedin.com/in/shubhkalaria",
-        portfolio: "https://shubhkalaria.vercel.app",
-        resume: "https://drive.google.com/your-resume-link"
+        github: "https://github.com/ShubH9604",
+        linkedin: "https://www.linkedin.com/in/shubh-kalaria09/",
+        resume: "https://drive.google.com/file/d/107OysZSBCdYvdupuwgU2rdObasZn8LGW/view?usp=sharing"
       }
     });
 
