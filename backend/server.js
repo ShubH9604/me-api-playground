@@ -12,8 +12,7 @@ const app = express();
 
 // Enable CORS only for your deployed frontend
 app.use(cors({
-  origin: ["https://meapi-playground-seven.vercel.app/"],
-  credentials: true
+credentials: true
 }));
 
 app.use(express.json());
