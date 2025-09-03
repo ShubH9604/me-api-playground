@@ -23,6 +23,7 @@ const Profile = () => {
       <div className="icon-links">
         <a href={profile.links.github} target="_blank"><FaGithub /></a>
         <a href={profile.links.linkedin} target="_blank"><FaLinkedin /></a>
+        <a href={profile.links.resume} target="_blank"><FaFileAlt /></a>
       </div>
     </div>
   );
