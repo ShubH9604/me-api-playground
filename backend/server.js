@@ -9,7 +9,13 @@ import queryRoutes from "./src/routes/queryRoutes.js";
 
 dotenv.config();
 const app = express();
-app.use(cors());
+
+// Enable CORS only for your deployed frontend
+app.use(cors({
+  origin: ["https://meapi-playground-seven.vercel.app/"],
+  credentials: true
+}));
+
 app.use(express.json());
 
 // DB connect
