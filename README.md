@@ -60,6 +60,3 @@ npm install
 
 npm run dev
 
-This will render nicely on GitHub with **folders indented as a tree**, and **commands in proper code blocks**.  
-
-If you want, I can rewrite the **entire README** including features, tech stack, project structure, and setup **all in one neatly formatted file** ready to copy. Do you want me to do that?
